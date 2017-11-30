@@ -1,0 +1,79 @@
+
+
+/* CSS used here will be applied after bootstrap.css */
+body {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.loading {
+	background-color: #06062b;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    color: white;
+}
+
+.loadingText {
+	position: absolute;
+    top: 47%;    
+    font-size: 43px;    
+    text-align: center;
+    width: 100%;
+}
+.center {
+  	text-align: center;
+    padding: 0 40px;
+    padding-top: 35px;	
+  }
+  
+.imageSize {
+  	width: 100%;
+  	height: 100%;
+  }
+
+.details {
+	text-align: left;
+  	padding: 30px;
+    border: 1px solid #ddd;    
+}
+
+.title {
+	font-weight: bold;
+  	word-break: break-all;
+  	overflow: hidden;
+    height: 50px;
+    text-overflow: ellipsis;
+}
+
+.address {
+	padding-top: 15px;
+    color: grey;
+}
+
+.area {
+	padding-top: 40px;
+	width: 100%;
+}
+
+.price {
+	font-weight: bold;
+}
+
+.size {
+	float: right;
+    
+}
+
+.type {
+	position: absolute;
+    top: 50px;
+    left: 40px;
+    background: white;
+    padding: 3px 8px;
+    border: 1px solid #ddd;
+    font-weight: bold;
+    color: #999;
+    box-shadow: 2px 2px 2px 1px rgba(84, 83, 83, 0.67);
+    -webkit-box-shadow: 2px 2px 2px 1px rgba(84, 83, 83, 0.67);
+	-moz-box-shadow: 2px 2px 2px 1px rgba(84, 83, 83, 0.67);
+}
